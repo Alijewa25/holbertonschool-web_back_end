@@ -40,8 +40,8 @@ This repository contains a series of projects focused on mastering modern Python
 ---
 
 ## 👨‍💻 Author
-* **Alijewa25** - [GitHub Profile](https://github.com/Alijewa25) /
-* **alijewa2_** - [Instagram Profile](https://www.instagram.com/alijewa25_/) /
+* **Alijewa25** - [GitHub Profile](https://github.com/Alijewa25)
+* **alijewa2_** - [Instagram Profile](https://www.instagram.com/alijewa25_/)
 * **Tahmina Aliyeva** - [LinkedIn Profile](www.linkedin.com/in/tahmina-aliyeva)
 
 ---
