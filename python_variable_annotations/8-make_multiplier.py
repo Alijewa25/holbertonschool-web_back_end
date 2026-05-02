@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""function."""
-
+"""
+izah
+"""
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """izah"""
-    def inner(x: float) -> float:
-        return x * multiplier
-    return inner
+    """
+    izah
+    """
+    def multiplier_func(n: float) -> float:
+        """
+        izah
+        """
+        return n * multiplier
+
+    return multiplier_func
