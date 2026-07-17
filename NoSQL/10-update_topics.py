@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-""" Modul sənədləşdirməsi """
+""" MODUL  """
 
 
 def update_topics(mongo_collection, name, topics):
-    """ Funksiya sənədləşdirməsi """
+    """ Function """
     mongo_collection.update_many({"name": name}, {"$set": {"topics": topics}})
