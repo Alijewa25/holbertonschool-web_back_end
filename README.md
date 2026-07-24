@@ -1,48 +1,56 @@
-# Web Back-End: Advanced Python Concepts
+# 🚀 Web Back-End Engineering
 
-This repository contains a series of projects focused on mastering modern Python development, specifically for back-end engineering. The curriculum transitions from static type-checking to high-performance asynchronous programming.
+This repository contains a comprehensive collection of back-end development projects completed as part of the **Holberton School** curriculum. The curriculum covers a wide spectrum of modern back-end technologies—ranging from modern JavaScript (ES6+) and asynchronous Python programming to database management with NoSQL (MongoDB) and API data management techniques like pagination.
+
+---
 
 ## 📂 Project Structure
 
-| Directory | Core Focus | Description |
+| Directory | Core Technologies | Description |
 | :--- | :--- | :--- |
-| `python_variable_annotations` | **Type Safety** | Implementation of static type hints, duck-typing, and generic types using `TypeVar`. |
-| `python_async_function` | **Asynchrony** | Foundations of `asyncio`, coroutine management, and concurrent execution flow. |
-| `python_async_comprehension` | **Parallelism** | Advanced use of async generators and parallel comprehensions to optimize data streams. |
+| `ES6_basic` | **JavaScript (ES6)** | Fundamentals of ES6 including block-scoping (`let`/`const`), arrow functions, rest/spread parameters, and template literals. |
+| `ES6_classes` | **JavaScript (OOP)** | Object-Oriented Programming in JS: class definitions, inheritance, static methods, getters/setters, and class hoisting. |
+| `NoSQL` | **MongoDB / Python** | Database interactions with MongoDB, PyMongo driver, CRUD operations, indexing, and aggregation pipelines. |
+| `pagination` | **Python / REST API** | Implementing simple and hypermedia pagination techniques for large datasets using offset and cursor-based strategies. |
+| `python_variable_annotations` | **Python Type Safety** | Static type hints, duck-typing, complex generic types (`TypeVar`, `Union`, `Callable`), and static analysis with `mypy`. |
+| `python_async_function` | **Python Asynchrony** | Core concepts of `asyncio`, coroutine execution, concurrent execution flow, and non-blocking I/O operations. |
+| `python_async_comprehension` | **Python Parallelism** | Advanced asynchronous generators, stream processing, and parallel async comprehensions for performance optimization. |
 
 ---
 
-## 🛠 Technical Highlights
+## 🛠 Tech Stack & Core Concepts
 
-### 1. Advanced Type Annotations
-* **Duck Typing:** Designing functions that accept any `Sequence` or `Mapping` rather than specific concrete classes.
-* **Complex Types:** Utilizing `Union`, `Optional`, `Callable`, and `Iterable` for precise interface definitions.
-* **Static Analysis:** Ensuring code reliability and catching bugs early using **Mypy**.
+### 1. Modern JavaScript (ES6+)
+* **Object-Oriented Programming:** Classes, abstraction, inheritance (`extends`), and method overriding.
+* **ES6 Standards:** Arrow functions, rest/spread operators, destructuring, and computed property names.
+* **Module System:** Modular code structure with ES6 `import`/`export` syntax.
 
-### 2. Asynchronous Programming (`asyncio`)
-* **Non-blocking I/O:** Using `async` and `await` to handle tasks without freezing the main execution thread.
-* **Concurrency:** Managing multiple tasks simultaneously using `asyncio.gather` and `asyncio.as_completed`.
-* **Resource Optimization:** Understanding how to minimize total runtime in I/O-bound applications.
+### 2. Back-End Python Architecture
+* **Type Safety:** Static type checking verified via `mypy` for robust, self-documenting code bases.
+* **Asynchronous Programming:** Concurrent task execution using `asyncio.gather` and async generators to maximize I/O performance.
+* **API Optimization:** Pagination patterns (offset-limit and hypermedia links) to handle large API data streams smoothly.
 
-### 3. Async Generators & Comprehensions
-* **Data Streaming:** Implementing asynchronous generators to `yield` data efficiently.
-* **Parallel Processing:** Executing multiple async comprehensions concurrently to achieve maximum throughput.
+### 3. Databases (NoSQL)
+* **MongoDB:** Document-oriented database management, schema design, and query optimization.
+* **PyMongo:** Python integration for querying, updating, and aggregating MongoDB collections.
 
 ---
 
-## 📋 Requirements & Compliance
+## 📋 Requirements & Standards
 
-* **Environment:** Developed on **Ubuntu 18.04 LTS** using **Python 3.7**.
-* **Linting:** 100% compliance with **PEP 8** style guide via `pycodestyle`.
-* **Documentation:** All modules, classes, and functions include comprehensive Google-style docstrings.
-* **Static Typing:** Verified using `mypy` to ensure zero type-compatibility issues.
+* **Operating System:** Developed and tested on **Ubuntu 18.04 / 20.04 LTS**.
+* **Python Environment:** Python 3.7+ with strict adherence to **PEP 8** standard (`pycodestyle`).
+* **JavaScript Environment:** Node.js (v12+) with **ESLint** linting and **Jest** testing framework.
+* **Documentation:** 100% docstring coverage for all Python modules/functions and JSDoc for JavaScript.
 
 ---
 
 ## 👨‍💻 Author
-* **Alijewa25** - [GitHub Profile](https://github.com/Alijewa25)
-* **alijewa2_** - [Instagram Profile](https://www.instagram.com/alijewa25_/)
-* **Tahmina Aliyeva** - [LinkedIn Profile](www.linkedin.com/in/tahmina-aliyeva)
+
+* **Tahmina Aliyeva** (Alijewa25)
+* **GitHub:** [@Alijewa25](https://github.com/Alijewa25)
+* **LinkedIn:** [Tahmina Aliyeva](https://www.linkedin.com/in/tahmina-aliyeva)
+* **Instagram:** [@alijewa25_](https://www.instagram.com/alijewa25_/)
 
 ---
-*Generated for the Holberton School*
+*Created as part of the Web Back-End Specialization at Holberton School.*
