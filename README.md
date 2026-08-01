@@ -1,6 +1,6 @@
 # 🚀 Web Back-End Engineering
 
-This repository contains a comprehensive collection of back-end development projects completed as part of the **Holberton School** curriculum. The curriculum covers a wide spectrum of modern back-end technologies—ranging from modern JavaScript (ES6+) and asynchronous Python programming to database management with NoSQL (MongoDB) and API data management techniques like pagination.
+This repository contains a comprehensive collection of back-end development projects completed as part of the **Holberton School** curriculum. The curriculum covers a wide spectrum of modern back-end technologies—ranging from modern JavaScript (ES6+), promises, and asynchronous Python programming to database management with NoSQL (MongoDB) and API data management techniques like pagination.
 
 ---
 
@@ -10,6 +10,8 @@ This repository contains a comprehensive collection of back-end development proj
 | :--- | :--- | :--- |
 | `ES6_basic` | **JavaScript (ES6)** | Fundamentals of ES6 including block-scoping (`let`/`const`), arrow functions, rest/spread parameters, and template literals. |
 | `ES6_classes` | **JavaScript (OOP)** | Object-Oriented Programming in JS: class definitions, inheritance, static methods, getters/setters, and class hoisting. |
+| `ES6_promise` | **JavaScript (Async)** | Asynchronous JS with Promises, `async/await` syntax, error handling with `try/catch`, and prototype methods (`all`, `race`). |
+| `ES6_data_manipulation` | **JavaScript (ES6+)** | Advanced array operations (`map`, `filter`, `reduce`), Typed Arrays, and data structures (`Set`, `Map`, `WeakSet`, `WeakMap`). |
 | `NoSQL` | **MongoDB / Python** | Database interactions with MongoDB, PyMongo driver, CRUD operations, indexing, and aggregation pipelines. |
 | `pagination` | **Python / REST API** | Implementing simple and hypermedia pagination techniques for large datasets using offset and cursor-based strategies. |
 | `python_variable_annotations` | **Python Type Safety** | Static type hints, duck-typing, complex generic types (`TypeVar`, `Union`, `Callable`), and static analysis with `mypy`. |
@@ -20,7 +22,9 @@ This repository contains a comprehensive collection of back-end development proj
 
 ## 🛠 Tech Stack & Core Concepts
 
-### 1. Modern JavaScript (ES6+)
+### 1. Modern & Asynchronous JavaScript (ES6+)
+* **Data Manipulation & Structures:** Advanced functional methods (`map`, `filter`, `reduce`), binary memory handling with Typed Arrays, and key/value collections (`Map`, `Set`, `WeakMap`, `WeakSet`).
+* **Asynchronous Programming:** Mastered Promises (`resolve`/`reject`), `async/await` control flow, and error catching.
 * **Object-Oriented Programming:** Classes, abstraction, inheritance (`extends`), and method overriding.
 * **ES6 Standards:** Arrow functions, rest/spread operators, destructuring, and computed property names.
 * **Module System:** Modular code structure with ES6 `import`/`export` syntax.
@@ -40,7 +44,7 @@ This repository contains a comprehensive collection of back-end development proj
 
 * **Operating System:** Developed and tested on **Ubuntu 18.04 / 20.04 LTS**.
 * **Python Environment:** Python 3.7+ with strict adherence to **PEP 8** standard (`pycodestyle`).
-* **JavaScript Environment:** Node.js (v12+) with **ESLint** linting and **Jest** testing framework.
+* **JavaScript Environment:** Node.js (v20+) with **ESLint** (Airbnb Style Guide) and **Jest** testing framework.
 * **Documentation:** 100% docstring coverage for all Python modules/functions and JSDoc for JavaScript.
 
 ---
